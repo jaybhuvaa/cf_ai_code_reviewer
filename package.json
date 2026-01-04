@@ -1,0 +1,30 @@
+{
+  "name": "cf_ai_code_reviewer",
+  "version": "1.0.0",
+  "description": "AI-powered code review assistant built on Cloudflare Workers with Llama 3.3",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail",
+    "test": "vitest"
+  },
+  "keywords": [
+    "cloudflare",
+    "workers",
+    "ai",
+    "code-review",
+    "llama"
+  ],
+  "author": "Jaykumar Bhuva",
+  "license": "MIT",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240117.0",
+    "typescript": "^5.3.3",
+    "wrangler": "^3.24.0",
+    "vitest": "^1.2.0"
+  },
+  "dependencies": {
+    "hono": "^3.12.0"
+  }
+}

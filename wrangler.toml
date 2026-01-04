@@ -1,0 +1,26 @@
+name = "cf-ai-code-reviewer"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+[ai]
+binding = "AI"
+
+[[kv_namespaces]]
+binding = "CHAT_HISTORY"
+id = "42d2f7747d75450faeecb7485907193e"
+
+[durable_objects]
+bindings = [
+  { name = "CODE_REVIEW_SESSION", class_name = "CodeReviewSession" }
+]
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["CodeReviewSession"]
+
+[site]
+bucket = "./public"
+
+[vars]
+ENVIRONMENT = "production"
