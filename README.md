@@ -6,6 +6,10 @@ An AI-powered code review assistant built on Cloudflare's edge computing platfor
 ![Llama 3.3](https://img.shields.io/badge/LLM-Llama%203.3%2070B-blue)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.3-3178C6?logo=typescript)
 
+## 🚀 Live Demo
+
+**Try it now:** [https://cf-ai-code-reviewer.jaybhuva57.workers.dev/](https://cf-ai-code-reviewer.jaybhuva57.workers.dev/)
+
 ## 🎯 Features
 
 - **Instant Code Reviews**: Get comprehensive feedback on your code in seconds
